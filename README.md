@@ -8,12 +8,13 @@ This is basically a prototype of the website for the Lidar Scout Rover
 <img width="765" height="439" alt="Overview" src="https://github.com/user-attachments/assets/781c8096-76ae-4e7f-ba8e-b8a3967ba3d9" />
 
 ## Description of Overview
+The Overview page is the main dashboard for monitoring the rover in real time. It shows the camera feed, connection status, control mode, goal distance, gas sensor data, obstacle activity, teleoperation controls, and a local navigation view all in one place for quick situational awareness during operation.
 
 ## Stack page
 <img width="1037" height="315" alt="Stacks Page" src="https://github.com/user-attachments/assets/f68c5eaa-7092-4b60-b39f-2b07b688a38e" />
 
-
 ## Description of Stack Page
+The Stack page shows the rover’s system architecture and active ROS 2 components. It displays the main topics and subsystems for sensing, navigation, safety, and motor control, helping explain how the rover software is organized.
 
 ## Navigation Page
 <img width="1032" height="310" alt="Navigation page" src="https://github.com/user-attachments/assets/722ab777-1256-4807-9d8d-28269269220e" />
