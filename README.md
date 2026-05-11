@@ -2,38 +2,38 @@
 Website for LiDAR Scout Rover
 
 ## Introduction 
-This is basically a prototype of the website for the Lidar Scout Rover
+This is basically a prototype of the website for the Lidar Scout Rover. So it's basically a reference to the rover project.
 
 ## Overview tab
 <img width="765" height="439" alt="Overview" src="https://github.com/user-attachments/assets/781c8096-76ae-4e7f-ba8e-b8a3967ba3d9" />
 
-## Description of Overview
+## Description of Overview page
 The Overview page is the main dashboard for monitoring the rover in real time. It shows the camera feed, connection status, control mode, goal distance, gas sensor data, obstacle activity, teleoperation controls, and a local navigation view all in one place for quick situational awareness during operation.
 
-## Stack page
+## Stacks page
 <img width="1037" height="315" alt="Stacks Page" src="https://github.com/user-attachments/assets/f68c5eaa-7092-4b60-b39f-2b07b688a38e" />
 
-## Description of Stack Page
+## Description of Stack page
 The Stack page shows the rover’s system architecture and active ROS 2 components. It displays the main topics and subsystems for sensing, navigation, safety, and motor control, helping explain how the rover software is organized.
 
-## Navigation Page
+## Navigation page
 <img width="1032" height="310" alt="Navigation page" src="https://github.com/user-attachments/assets/722ab777-1256-4807-9d8d-28269269220e" />
 
-## Description of Navigation
+## Description of Navigation page
+The Navigation page shows the rover’s pose, path status, and active navigation data. It displays pose values, plan status, goal distance, and the current control source, providing a quick view of Nav2 operation without needing RViz.
 
-
-## Controller Tab
+## Controller page
 <img width="1385" height="425" alt="Controller page" src="https://github.com/user-attachments/assets/e54df2c1-9cb4-4305-9d36-024ba5366ce5" />
 
 
-## Description of Controller Tab
+## Description of Controller page
+The Controller page focuses on manual control and drive mode status. It shows whether the rover is being controlled by navigation, avoidance, manual input, or is idle, while also displaying how velocity commands flow through the different `/cmd_vel` topics.
 
-
- ## Topics Tab
+ ## Topics page
 <img width="1903" height="599" alt="Topics tab" src="https://github.com/user-attachments/assets/327c71d3-bf23-4bb3-b2cc-4bc6fd7bfd62" />
 
 
- ## Description of Topics 
- 
+ ## Description of Topics  page
+ The Topics page lists the main ROS 2 topics used by the rover system. Topics are grouped by perception, navigation, and control, providing a quick reference for monitoring the rover’s active Point-LIO, Nav2, obstacle, and command topics.
 
 
