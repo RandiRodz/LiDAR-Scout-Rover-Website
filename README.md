@@ -16,7 +16,7 @@ The Overview page is the main dashboard for monitoring the rover in real time. I
 ## Description of Stack page
 The Stack page shows the rover’s system architecture and active ROS 2 components. It displays the main topics and subsystems for sensing, navigation, safety, and motor control, helping explain how the rover software is organized.
 
-## Navigation page
+## Navigation page 
 <img width="1032" height="310" alt="Navigation page" src="https://github.com/user-attachments/assets/722ab777-1256-4807-9d8d-28269269220e" />
 
 ## Description of Navigation page
